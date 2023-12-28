@@ -1,0 +1,41 @@
+{
+    "short_name": "SmartHome",
+    "name": "Your Smart Home",
+    "icons": [
+        {
+            "src": "assets/favicons/smart-home-32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/favicons/smart-home-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+            
+        },
+        {
+            "src": "assets/favicons/smart-home-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable"
+          },
+        {
+            "src": "assets/favicons/smart-home-256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/favicons/smart-home-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#317EFB",
+    "display": "standalone",
+    "theme_color": "#317EFB"
+}

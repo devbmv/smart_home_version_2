@@ -1,0 +1,123 @@
+/* General Settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+/* Body Settings */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Nav Styles */
+header>nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+/* Hover Effect on Links */
+header nav a {
+    font-size: x-large;
+    text-decoration: none;
+    color: #fffffd;
+    /* Default color for navigation links */
+}
+
+a:hover {
+    color: rgb(195, 208, 147);
+    /* Color when hovering over any link */
+}
+
+/* Header Styles */
+header {
+    background-color: #345d0c;
+    /* Background color for the header */
+    color: white;
+    /* Text color in the header */
+    position: sticky;
+    /* Header sticks to the top of the viewport */
+    top: 0;
+    z-index: 1;
+    /* Z-index to ensure the header appears above other elements */
+    border-bottom: 5px solid #74c437;
+    /* Border at the bottom of the header */
+}
+
+
+/* Section Styles */
+section>div {
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    /* Background color for section */
+    background-color: rgb(195, 208, 147);
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background-color: #2a490b;
+    color: white;
+    /* position: fixed;  */
+    bottom: 0;
+    /* Place the footer at the bottom of the viewport */
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+
+.responsive-iframe {
+    position: relative;
+    padding-bottom: 49rem;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Media Query for Larger Screens (min-width: 900px) */
+@media screen and (min-width: 900px) {
+    section>div {
+        font-size: 30px;
+        /* Larger font size for larger screens */
+    }
+}
+
+/* Media Query for Smaller Screens (max-width: 520px) */
+@media screen and (max-width: 520px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section>div {
+        font-size: 16px;
+        min-height: auto;
+    }
+}

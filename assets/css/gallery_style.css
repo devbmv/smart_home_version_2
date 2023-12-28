@@ -1,0 +1,86 @@
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center; /* Center text alignment by default */
+}
+
+/* Body Styles */
+body {
+    min-height: 100vh; /* Minimum height of the viewport */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    color: #333; /* Default text color */
+}
+
+/* Image Styles */
+img {
+    height: auto; /* Maintain aspect ratio of images */
+    width: 100%; /* Full width images */
+    margin-bottom: 5px; /* Space below images */
+}
+
+/* Hover Effect on Links */
+a:hover {
+    color: rgb(195, 208, 147); /* Color change on hover */
+}
+
+/* Navigation Link Styles */
+header nav a {
+    font-size: x-large; /* Larger font size for navigation links */
+    text-decoration: none; /* No underline for links */
+    color: #fffffd; /* Text color for navigation links */
+}
+
+/* Header Styles */
+header {
+    position: sticky; /* Sticky position at the top */
+    top: 0;
+    z-index: 1; /* Ensure header is above other elements */
+    background-color: #345d0c; /* Background color for the header */
+    color: white; /* Text color for the header */
+    border-bottom: 5px solid #74c437; /* Border style for the header */
+}
+
+/* Navigation Styles */
+header>nav {
+    display: flex;
+    justify-content: flex-end; /* Align navigation items to the right */
+    gap: 1rem; /* Space between navigation items */
+    margin-right: 1rem; /* Right margin for navigation */
+    color: white; /* Text color for navigation */
+}
+
+/* Main Content Styles */
+main {
+    background-color: rgb(195, 208, 147); /* Background color for main content */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap in main content */
+    justify-content: space-around; /* Space around items in main content */
+    align-items: flex-start; /* Align items to start in main content */
+}
+
+/* Footer Styles */
+footer {
+    width: 100%; /* Full width footer */
+    background-color: #2a490b; /* Background color for footer */
+    color: white; /* Text color for footer */
+    bottom: 0; /* Position footer at the bottom */
+    text-align: center; /* Center text in footer */
+    padding: 10px; /* Padding inside footer */
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width:520px) {
+    nav {
+        flex-direction: column; /* Stack navigation items vertically on small screens */
+        align-items: center; /* Center align navigation items */
+    }
+
+    img {
+        width: 100%; /* Full width images on small screens */
+        height: auto; /* Maintain aspect ratio of images */
+        gap: 20px; /* Space around images */
+    }
+}

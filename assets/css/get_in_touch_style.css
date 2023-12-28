@@ -1,0 +1,128 @@
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center; /* Center align text for all elements */
+}
+
+/* Body Settings */
+html body {
+    height: 100%;
+    margin: 0;
+    min-height: 80rem; /* Set minimum height for the body */
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+}
+
+/* Nav Styles */
+header>nav {
+    display: flex;
+    justify-content: flex-end; /* Align nav items to the right */
+    gap: 1rem; /* Space between nav items */
+    margin-right: 1rem; /* Right margin for nav */
+}
+
+/* Hover Effect on Links */
+header nav a {
+    font-size: x-large; /* Increase font size for nav links */
+    text-decoration: none; /* Remove text decoration */
+    color: #fffffd; /* White color for nav links */
+}
+
+a:hover {
+    color: rgb(195, 208, 147); /* Change link color on hover */
+}
+
+/* Header Styles */
+header {
+    background-color: #345d0c; /* Dark green background for the header */
+    color: white; /* White text in the header */
+    position: sticky; /* Sticky header at the top */
+    top: 0;
+    z-index: 1; /* Higher z-index to stack on top */
+    border-bottom: 5px solid #74c437; /* Bottom border for the header */
+}
+
+/* Main Content Styles */
+main {
+    background-image: url("../image/smart-home.webp"); /* Background image for main content */
+    color: #f7fbf7; /* Light text color */
+    background-size: cover; /* Cover entire area with background */
+    background-position: 75%; /* Positioning of the background image */
+    padding: 20px 20% 0 10%; /* Padding around main content */
+    flex-grow: 1;
+    flex: 1; /* Flex settings for layout */
+}
+
+/* Section Styles */
+section {
+    max-width: 600px; /* Maximum width for sections */
+    max-height: 300px; /* Maximum height for sections */
+    margin: 0 auto; /* Center sections horizontally */
+}
+
+/* Form Styles */
+form {
+    background-color: #3f6619; /* Dark green background for forms */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Border for the form */
+    margin-bottom: 16px; /* Bottom margin for the form */
+}
+
+label {
+    display: block; /* Display label on a new line */
+    margin-bottom: 8px; /* Space below each label */
+}
+
+input,
+textarea {
+    width: 100%; /* Full width for input and textarea */
+    padding: 10px; /* Padding inside input and textarea */
+    margin-bottom: 16px; /* Space below each input and textarea */
+    background-color: #fdfefc; /* Light background for input and textarea */
+    color: rgb(108, 16, 16); /* Dark text color */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Border for input and textarea */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Button Styles */
+button {
+    background-color: rgb(4, 42, 20); /* Dark green background for buttons */
+    color: #fafafa; /* White text on buttons */
+    padding: 10px 20px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for buttons */
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #9daab9; /* Change button color on hover */
+}
+
+/* Footer Styles */
+footer {
+    width: 100%; /* Full width for footer */
+    background-color: #2a490b; /* Dark green background for footer */
+    color: white; /* White text in footer */
+    bottom: 0; /* Position footer at the bottom */
+    text-align: center; /* Center align text in footer */
+    padding: 10px; /* Padding inside footer */
+}
+
+/* Media Query for Smaller Screens (max-width: 520px) */
+@media screen and (max-width: 520px) {
+    nav {
+        flex-direction: column; /* Stack nav items vertically on small screens */
+        align-items: center; /* Center align nav items */
+    }
+
+    form {
+        width: 14rem; /* Adjust form width on small screens */
+        height: 26rem; /* Adjust form height on small screens */
+    }
+}
