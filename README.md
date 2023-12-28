@@ -79,26 +79,26 @@ Manually tested the functionality of our Smart Home project by interacting with 
 - HTML
 
   - No errors were returned when passing through the official: <br>
-    [Home Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home%2Findex.html)<br>
+    [Home Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home_version_2%2Findex.html)<br>
     ![Local Image](assets/image/home_page_validator_html.png)<br>
 
-    [Gallery Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home%2Fgallery.html)<br>
+    [Gallery Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home_version_2%2Fgallery.html)<br>
     ![Local Image](assets/image/home_page_validator_html.png)<br>
 
-    [Get in touch Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home%2Fget_in_touch.html)<br>
+    [Get in touch Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home_version_2%2Fget_in_touch.html)<br>
     ![Local Image](assets/image/home_page_validator_html.png)<br>
 
 - CSS
   - No errors were found when passing through the official:<br>
-    ![Home Page CSS Validator](assets/image/home_page_css_validator.png)<br>
-    ![Gallery CSS Validator](assets/image/gallery_validator_css.png)<br>
-    ![Get In Touch CSS Validator](assets/image/get_in_touch_validator_css.png)<br>
-- Lighthouse
-  -# Smart Home Documentation
+    [Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home_version_2%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru)<br>
+    ![Local patch](assets/image/home_page_css_validator.png)<br>
+    [Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home_version_2%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru)<br>
+    ![Local Patch](assets/image/gallery_validator_css.png)<br>
+    [Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdevbmv.github.io%2Fsmart_home_version_2%2Fget_in_touch.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru)<br>
+    ![Local Patch](assets/image/get_in_touch_validator_css.png)<br>
 
-...
 
-## Lighthouse Audit
+### Lighthouse Audit
 
 Our Smart Home project has been thoroughly tested using Google's Lighthouse audit tool to ensure high performance, accessibility, best practices, and search engine optimization. The results highlight the efficient design and responsive nature of the website, making it a reliable and user-friendly platform.
 
@@ -120,7 +120,7 @@ To deploy the Smart Home project, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
-git clone https://github.com/devbmv/smart_home.git
+git clone https://github.com/devbmv/smart_home_version_2.git
 
 ### Media
 
